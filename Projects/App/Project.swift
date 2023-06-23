@@ -14,10 +14,10 @@ let project = Project.makeModule(
     platform: .iOS,
     product: .app,
     dependencies: [
-        .Domain,
-        .Data,
-        .Shared,
-        .Presentation,
+        .Project.Domain,
+        .Project.Data,
+        .Project.Home,
+        .SPM.Swinject
     ],
     resources: ["Resources/**"],
     infoPlist: .file(path: "Support/Info.plist")

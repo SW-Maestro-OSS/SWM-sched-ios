@@ -1,9 +1,15 @@
 import ProjectDescription
 
 public extension TargetDependency {
-    static let Presentation = TargetDependency.project(
-        target: "Presentation",
-        path: .relativeToRoot("Projects/Presentation")
+    
+    enum Project {}
+    
+}
+
+public extension TargetDependency.Project {
+    static let Home = TargetDependency.project(
+        target: "Home",
+        path: .relativeToRoot("Projects/Home")
     )
     static let Domain = TargetDependency.project(
         target: "Domain",

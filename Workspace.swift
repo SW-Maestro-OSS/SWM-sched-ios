@@ -8,7 +8,7 @@
 import ProjectDescription
 
 let workspace = Workspace(
-    name: "Conference.ios",
+    name: "Conference",
     projects: [
         "Projects/App"
     ]

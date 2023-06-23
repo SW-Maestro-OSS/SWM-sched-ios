@@ -13,7 +13,6 @@ let project = Project.makeModule(
     name: "CommonUI",
     product: .staticFramework,
     dependencies: [
-        .Domain,
-        .Shared
+        .SPM.SnapKit
     ]
 )

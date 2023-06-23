@@ -13,5 +13,7 @@ let project = Project.makeModule(
     name: "Domain",
     product: .staticFramework,
     dependencies: [
+        .Project.Shared,
+        .SPM.RxSwift
     ]
 )

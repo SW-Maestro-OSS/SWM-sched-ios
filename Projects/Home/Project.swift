@@ -10,9 +10,14 @@ import ProjectDescriptionHelpers
 import DependencyPlugin
 
 let project = Project.makeModule(
-    name: "Presentation",
+    name: "Home",
     product: .staticFramework,
     dependencies: [
-        .CommonUI
+        .Project.Domain,
+        .Project.CommonUI,
+        .Project.Shared,
+        .SPM.RxSwift,
+        .SPM.RxCocoa,
+        .SPM.Kingfisher
     ]
 )

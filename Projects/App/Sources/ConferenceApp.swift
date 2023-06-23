@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Presentation
+import Home
 
 @main
 struct ConferenceApp: App {
